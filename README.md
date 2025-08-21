@@ -77,7 +77,7 @@ clean test
 -Dbrowser=${BROWSER}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
--DremoteUrl=https://user1:1234@${REMOTE_URL}/wd/hub
+-DremoteUrl=https://user1:1234@${REMOTE_SERVER_URL}/wd/hub
 ```
 ***Параметры сборки в Jenkins***
 
